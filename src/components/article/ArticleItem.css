@@ -1,0 +1,32 @@
+.card{
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 0.05s;
+}
+
+.card:hover{
+    scale: 1.05;
+}
+
+.card-text{
+    text-align: justify;
+    color: rgb(88, 85, 85);
+}
+
+.read-more{
+    margin-right: 5px;
+}
+
+.read-more:hover{
+    color: rgb(25, 162, 216);
+    cursor: pointer;
+}
+
+.card-footer{
+    color: #666 !important;
+}
+
+.card a{
+    text-decoration: none;
+    color: #484848;
+}
